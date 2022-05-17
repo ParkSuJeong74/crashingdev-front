@@ -1,8 +1,7 @@
 import axios from "axios";
 
-const BACKEND_PORT_NUMBER = "5005";
-const serverUrl =
-  "https://happiness-ti-back.herokuapp.com" + ":" + BACKEND_PORT_NUMBER + "/";
+// const BACKEND_PORT_NUMBER = "5005";
+const serverUrl ="https://happiness-ti-back.herokuapp.com/";
 
 // 어느 요청이나 공통인 baseUrl이므로 구성 기본값으로 설정.
 axios.defaults.baseURL = serverUrl;
